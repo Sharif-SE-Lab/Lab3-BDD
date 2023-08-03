@@ -6,12 +6,12 @@
         width: 400px;
     }
     .landscape {
-        width: 900px;
+        width: 100%;
     }
 </style>
 
 ## انجام مراحل مثال ذکر شده
-مراحل مورد نظر را طبق فایل ذکر شده، انجام دادیم. تصاویر مربوط به انجام مراحل در زیر نشان داده شده است.
+مراحل مورد نظر را طبق فایل ذکر شده، انجام دادیم. تصاویر مربوط به انجام مراحل در زیر نشان داده شده است. در انجام کار، از هر دو ابزار vscode, intellij استفاده کردیم.
 
 ### مرحله ۱
 <img class="portrait" alt="task 1.1.3" src="pictures/1.previous_task/1.3.png">
@@ -55,5 +55,8 @@
 
 ### مرحله ۱۳
 <img class="portrait" alt="task 1.13.1" src="pictures/1.previous_task/13.1.png">
+
+* این عکس پس از درست کردن قسمت result سناریوی قبل و هنگام اجرای مجدد تست گرفته شده است، و ربطی به سناریوی جدید ندارد.
 <img class="portrait" alt="task 1.13.2" src="pictures/1.previous_task/13.2.png">
+
 <img class="portrait" alt="task 1.13.3" src="pictures/1.previous_task/13.3.png">
