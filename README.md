@@ -57,4 +57,5 @@
 <img class="portrait" alt="task 1.13.2" src="pictures/1.previous_task/13.2.png">
 
 <img class="portrait" alt="task 1.13.3" src="pictures/1.previous_task/13.3.png">
-# بخش دوم: ایجاد ماشین حساب اصلی
+## بخش اول: ایجاد ماشین حساب با عملیات‌های متعدد
+این بخش باید پر شود
