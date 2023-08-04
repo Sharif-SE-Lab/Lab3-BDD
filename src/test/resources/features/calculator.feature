@@ -14,5 +14,21 @@ Feature: Calculator
         Examples:
             | first | second | result |
             | 1     | 12     | 13     |
-            | -1    | 6      | 5  	    |
-            | 2     | 2      | 4	    |
+            | 2     | 2      | 4	  |
+
+    Scenario: operation on two numbers
+        Given Two input values, 1 and 2
+        When the mul is requested
+        Then I expect the result 2
+
+    Scenario Outline: operation on two numbers
+        Given Two input values, <first> and <second>
+        When the <operation> is requested
+        Then I expect the result <result>
+
+        Examples:
+            | first | second | operation | result |
+            | 1     | 12     | add       | 13	  |
+            | 3     | 2      | mul	     | 6	  |
+            | 8     | 2      | div	     | 4	  |
+            | 3     | 2      | pow	     | 9	  |
